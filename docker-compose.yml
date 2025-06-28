@@ -14,7 +14,7 @@ services:
       - db:/var/lib/mysql
 
 
-  app-timesheet:
+  app-school-backend:
     depends_on:
       - mysqldb
     image: yeleta/school:1.0.0
